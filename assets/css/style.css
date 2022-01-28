@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 100%;
+    background-color: #ec293c;
+    position: relative;
+    top: -70px !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.reservasi {
+    padding: 25px 10px;
+}
+
+.check {
+    background-color: #ec293c;
+}
+
+.check .col-md-6 {
+    padding:0 20px;
+}
+
+.container-check {
+    position: relative;
+    top: -60px !important;
+}
+
+.fiture {
+    position: relative;
+    top: -100px;
+    color: #ec293c;
+}
+
+.about {
+    position: relative;
+    top: -40px !important;
+    color: #ec293c;
+}
+
+.map {
+    position: relative;
+    top: -40px !important;
+}
+.map .container-map {
+    background-color: #ec293c;
+    padding-bottom: 20px;
+}
+
+.map .svg-end {
+    position: relative;
+    top: -5px !important;
+}
+
+
+footer {
+    position: relative;
+    /* margin-bottom: 100px; */
+    top: -10px !important;
+    color: #ec293c;
+}
