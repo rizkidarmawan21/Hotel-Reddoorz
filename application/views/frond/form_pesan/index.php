@@ -53,7 +53,7 @@
     </div>
     <div class="mb-3">
         <label for="price" class="form-label">Harga / Hari</label>
-        <input type="text" class="form-control" value="Rp. <?= $kamar['price']?>" id="price" placeholder="price" readonly>
+        <input type="text" class="form-control" value="Rp. <?= $kamar['price']?>"  placeholder="price" readonly>
         <input type="hidden" name="price" class="price" value="<?= $kamar['price']?>" id="price">
     </div>
     <div class="mb-3">
@@ -114,7 +114,7 @@
     </body>
 
   <script>
-    var price = document.querySelector('.price').value;
+    var price = document.getElementById('price').value;
     var uangJmlKmr
 
     $(document).ready(function() {
