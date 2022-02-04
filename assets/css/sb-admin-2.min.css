@@ -11023,19 +11023,19 @@ a:focus {
 }
 
 .bg-login-image {
-    background: url(https://thumb.viva.co.id/media/frontend/thumbs3/2019/12/18/5df9ee2cb6201-ilustrasi-reddoorz_665_374.jpg);
+    background: url('https://source.unsplash.com/600x400?hotel');
     background-position: center;
     background-size: cover
 }
 
 .bg-register-image {
-    background: url(https://thumb.viva.co.id/media/frontend/thumbs3/2019/12/18/5df9ee2cb6201-ilustrasi-reddoorz_665_374.jpg);
+    background: url('https://source.unsplash.com/600x400?hotel');
     background-position: center;
     background-size: cover
 }
 
 .bg-password-image {
-    background: url(https://thumb.viva.co.id/media/frontend/thumbs3/2019/12/18/5df9ee2cb6201-ilustrasi-reddoorz_665_374.jpg);
+    background: url('https://source.unsplash.com/600x400?hotel');
     background-position: center;
     background-size: cover
 }
