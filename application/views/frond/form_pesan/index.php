@@ -40,7 +40,7 @@
     <h2>Pesan Kamar</h2>
     <br>
     <div class="align-item-center">
-    <img src="<?= base_url('assets/img/produk/default.jpg') ?>" class="img-fluid rounded mx-auto d-block" alt="Image Produk">
+    <img src="<?= base_url('assets/img/produk/')?><?= $kamar['image_produk']?>" width="300px" class="img-fluid rounded mx-auto d-block" alt="Image Produk">
     </div>
 
 
@@ -53,7 +53,7 @@
     </div>
     <div class="mb-3">
         <label for="price" class="form-label">Harga / Hari</label>
-        <input type="text" class="form-control" value="Rp. <?= number_format($kamar['price'], 0, ',', '.') ?>" id="price" placeholder="price" readonly>
+        <input type="text" class="form-control" value="Rp. <?= $kamar['price']?>" id="price" placeholder="price" readonly>
         <input type="hidden" name="price" class="price" value="<?= $kamar['price']?>" id="price">
     </div>
     <div class="mb-3">
