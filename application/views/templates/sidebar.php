@@ -1,6 +1,6 @@
 
             <!-- Sidebar -->
-            <ul class="navbar-nav bg-gradient-danger sidebar sidebar-dark accordion" id="accordionSidebar">
+            <ul class="navbar-nav  sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #0e2a2f;">
 
                 <!-- Sidebar - Brand -->
                 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
@@ -10,7 +10,7 @@
                     </div>
                     <div class="sidebar-brand-text mx-3">
                     
-                    RedDoorz <br><sup>Administrator</sup></div>
+                    Ryal Hotel <br><sup>Administrator</sup></div>
                 </a>
 
                 <!-- Divider -->

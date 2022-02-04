@@ -32,10 +32,10 @@ class Home_f extends CI_Controller
 		is_logged_in_user();
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$data['kamar'] = $this->db->get_where('kamar', ['id' => $id])->row_array();
-		$this->load->view('frond/templates/header');
-		$this->load->view('frond/templates/navbar', $data);
+		// $this->load->view('frond/templates/header');
+		// $this->load->view('frond/templates/navbar', $data);
 		$this->load->view('frond/form_pesan/index', $data);
-		$this->load->view('frond/templates/footer');
+		// $this->load->view('frond/templates/footer');
 	}
 
 	public function pesan_action()
@@ -109,10 +109,10 @@ class Home_f extends CI_Controller
 		$data['pesanan'] = $this->Transaksi_model->getTransaksiByUser($id)->result_array();
 		// var_dump($data['pesanan']);
 		// die();
-		$this->load->view('frond/templates/header');
-		$this->load->view('frond/templates/navbar', $data);
+		// $this->load->view('frond/templates/header');
+		// $this->load->view('frond/templates/navbar', $data);
 		$this->load->view('frond/pesanan/index', $data);
-		$this->load->view('frond/templates/footer');
+		// $this->load->view('frond/templates/footer');
 	}
 
 
@@ -127,10 +127,10 @@ class Home_f extends CI_Controller
 		$data['pesanan'] = $this->Transaksi_model->getTransaksiDetail($data_id)->row_array();
 		// var_dump($data['pesanan']);
 		// die();
-		$this->load->view('frond/templates/header');
-		$this->load->view('frond/templates/navbar', $data);
+		// $this->load->view('frond/templates/header');
+		// $this->load->view('frond/templates/navbar', $data);
 		$this->load->view('frond/pesanan/detail', $data);
-		$this->load->view('frond/templates/footer');
+		// $this->load->view('frond/templates/footer');
 	}
 
 	public function bayar($id)
@@ -144,10 +144,10 @@ class Home_f extends CI_Controller
 		$data['pesanan'] = $this->Transaksi_model->getTransaksiDetail($data_id)->row_array();
 		// var_dump($data['pesanan']);
 		// die();
-		$this->load->view('frond/templates/header');
-		$this->load->view('frond/templates/navbar', $data);
+		// $this->load->view('frond/templates/header');
+		// $this->load->view('frond/templates/navbar', $data);
 		$this->load->view('frond/pesanan/bayar', $data);
-		$this->load->view('frond/templates/footer');
+		// $this->load->view('frond/templates/footer');
 	}
 
 	public function bayar_aksi()
@@ -215,10 +215,10 @@ class Home_f extends CI_Controller
 		$data['pesanan'] = $this->Transaksi_model->getTransaksiBayarByUser($id)->result_array();
 		// var_dump($data['pesanan']);
 		// die();
-		$this->load->view('frond/templates/header');
-		$this->load->view('frond/templates/navbar', $data);
+		// $this->load->view('frond/templates/header');
+		// $this->load->view('frond/templates/navbar', $data);
 		$this->load->view('frond/transaksi/index', $data);
-		$this->load->view('frond/templates/footer');
+		// $this->load->view('frond/templates/footer');
 	}
 
 	public function profil()
@@ -227,10 +227,10 @@ class Home_f extends CI_Controller
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		// var_dump($data['pesanan']);
 		// die();
-		$this->load->view('frond/templates/header');
-		$this->load->view('frond/templates/navbar', $data);
+		// $this->load->view('frond/templates/header');
+		// $this->load->view('frond/templates/navbar', $data);
 		$this->load->view('frond/profile/index', $data);
-		$this->load->view('frond/templates/footer');
+		// $this->load->view('frond/templates/footer');
 	}
 
 	public function edit_profile()

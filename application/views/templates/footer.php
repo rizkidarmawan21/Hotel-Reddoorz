@@ -3,7 +3,7 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto ">
-                            <span >Application created with ❤️ By <a href="#" target="blank">RedDoorz</a>  <?= date('Y')?></span>
+                            <span >Application created with ❤️ By <a href="#" target="blank">Ryal Hotel</a>  <?= date('Y')?></span>
                         </div>
                     </div>
                 </footer>

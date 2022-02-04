@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-danger">
+<body style="background-color: #0e2a2f;">
 <div class="container mt-3">
             <h2> <a style="color: #ffff;" href="<?= base_url('');?>"><i class="bi bi-reply"></i> Back Home</a></h2>
     </div>
@@ -84,7 +84,7 @@
 
 
     <footer class="text-center text-dark" >
-<span class="text-white">Application created with ❤️ By <a href="#" target="blank">RedDoorz</a>  <?= date('Y')?></span>
+<span class="text-white">Application created with ❤️ By <a href="#" target="blank">Ryal Hotel</a>  <?= date('Y')?></span>
 </footer>
 
     <!-- Bootstrap core JavaScript-->

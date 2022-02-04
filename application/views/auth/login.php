@@ -14,8 +14,8 @@
                             <div class="col-lg">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <img class="img ml-5 mb-3" src="<?= base_url('assets/');?>img/logo.png" width=""  alt="">
-                                        <h1 class="h4 text-gray-900 mb-3">RedDoorz<br>Administrator</h1>
+                                        <!-- <img class="img ml-5 mb-3" src="<?= base_url('assets/');?>img/logo.png" width=""  alt=""> -->
+                                        <h1 class="h4 text-gray-900 mb-3">Ryal Hotel<br>Administrator</h1>
                                     </div>
 
 

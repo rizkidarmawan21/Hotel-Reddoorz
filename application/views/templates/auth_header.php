@@ -22,4 +22,4 @@
 
 </head>
 
-<body class="bg-danger">
+<body style="background-color: #0e2a2f;">

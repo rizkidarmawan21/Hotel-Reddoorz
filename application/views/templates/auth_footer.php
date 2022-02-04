@@ -1,6 +1,6 @@
 
 <footer class="text-center text-dark" >
-<span class="text-white">Application created with ❤️ By <a href="#" target="blank">RedDoorz</a>  <?= date('Y')?></span>
+<span class="text-white">Application created with ❤️ By <a href="#" target="blank">Ryal Hotel</a>  <?= date('Y')?></span>
 </footer>
 
     <!-- Bootstrap core JavaScript-->
