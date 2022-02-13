@@ -39,6 +39,10 @@
 	<!--==================== PLACES ====================-->
 	<section class="place section" id="place">
 		<?= $this->session->flashdata('message'); ?>
+		<br>
+		<br>
+		<br>
+
 		<h2 class="section__title">Choose Your Room</h2>
 
 		<div class="place__container container grid">
@@ -68,4 +72,7 @@
 		</div>
 	</section>
 
+
+
 </main>
+

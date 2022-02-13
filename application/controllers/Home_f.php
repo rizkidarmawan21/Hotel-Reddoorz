@@ -85,10 +85,9 @@ class Home_f extends CI_Controller
 			];
 
 			$this->db->insert('transaksi', $data);
-			$this->session->set_flashdata('message', '<div class="alert alert-success alert-dismissible fade show" role="alert">
-			Pesanan Berhasil Ditambah ! , cek dimenu pesanan
-			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-		  </div>');
+			$this->session->set_flashdata('message', '<span style="background-color: darkgrey;">
+			<p  style="text-align: center;">Pesanan berhasil ditambahkan! ,cek menu orders</p>
+		</span>');
 			redirect('home_f/kamar');
 		}
 	}
